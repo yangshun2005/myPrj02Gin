@@ -77,7 +77,13 @@ func main() {
 	//设置没有uri的时候404的响应问题
 	route.NoRoute(controllers.Handle404)
 
-	//
+	//路由开发三块：用户前端、管理后台、后端逻辑、oauth认证
+	//用户前端
+
+
+
+
+
 	//
 	//
 	//
