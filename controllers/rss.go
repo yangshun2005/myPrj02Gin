@@ -6,9 +6,9 @@ import (
 	"github.com/cihub/seelog"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/feeds"
-	"github.com/wangsongyan/wblog/helpers"
-	"github.com/wangsongyan/wblog/models"
-	"github.com/wangsongyan/wblog/system"
+	"github.com/yangshun2005/myPrj02Gin/helpers"
+	"github.com/yangshun2005/myPrj02Gin/models"
+	"github.com/yangshun2005/myPrj02Gin/system"
 )
 
 func RssGet(c *gin.Context) {

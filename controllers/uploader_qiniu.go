@@ -7,7 +7,7 @@ import (
 
 	"github.com/qiniu/api.v7/auth/qbox"
 	"github.com/qiniu/api.v7/storage"
-	"github.com/wangsongyan/wblog/system"
+	"github.com/yangshun2005/myPrj02Gin/system"
 )
 
 // 获取文件大小的接口

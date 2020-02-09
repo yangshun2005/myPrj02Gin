@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/wangsongyan/wblog/models"
+	"github.com/yangshun2005/myPrj02Gin/models"
 )
 
 func LinkIndex(c *gin.Context) {

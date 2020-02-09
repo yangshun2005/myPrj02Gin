@@ -22,7 +22,6 @@ require (
 	github.com/qiniu/x v7.0.8+incompatible // indirect
 	github.com/russross/blackfriday v1.5.2
 	github.com/snluu/uuid v0.0.0-20130306162636-1dd34a9ad6c0
-	github.com/wangsongyan/wblog v0.0.0-20190212134921-875ef9a6cda0
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 	qiniupkg.com/x v7.0.8+incompatible // indirect

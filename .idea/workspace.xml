@@ -3,6 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="8ff4dcdd-7fa2-4e97-a9c5-051ef762f878" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/archive.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/archive.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/backup.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/backup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/comment.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/comment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/link.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/link.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/mail.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/mail.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/page.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/page.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/rss.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/rss.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/subscriber.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/subscriber.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/uploader_qiniu.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/uploader_qiniu.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/uploader_smms.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/uploader_smms.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,5 +66,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581277906680" />
+    <state x="439" y="314" width="858" height="582" key="find.popup" timestamp="1581280477694">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="439" y="314" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1581280477694" />
   </component>
 </project>

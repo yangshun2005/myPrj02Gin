@@ -4,10 +4,10 @@ import (
 	"flag"
 	template2 "html/template"
 
-	"myPrj02Gin/controllers"
-	"myPrj02Gin/helpers"
-	"myPrj02Gin/models"
-	"myPrj02Gin/system"
+	"github.com/yangshun2005/myPrj02Gin/controllers"
+	"github.com/yangshun2005/myPrj02Gin/helpers"
+	"github.com/yangshun2005/myPrj02Gin/models"
+	"github.com/yangshun2005/myPrj02Gin/system"
 	"path/filepath"
 	"text/template"
 
@@ -66,7 +66,7 @@ func main() {
 	setSessions(route)
 	route.Use(SharedData())
 
-	//Periodic tasks
+	//循环任务 tasks
 	gocron.Every(1).Day().Do(controllers.CreateXMLSitemap)
 	gocron.Every(7).Days().Do(controllers.Backup)
 	gocron.Start()
@@ -79,7 +79,14 @@ func main() {
 
 	//路由开发三块：用户前端、管理后台、后端逻辑、oauth认证
 	//用户前端
+	route.GET("/", controllers.IndexGet)
+	route.GET("/index", controllers.IndexGet)
+	route.GET("/rss", controllers.RssGet)
 
+	if system.GetConfiguration().SignupEnabled {
+		route.GET("/signup", controllers.SignupGet)
+		route.POST("/signup", controllers.SignupPost)
+	}
 
 
 

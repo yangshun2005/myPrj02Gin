@@ -1,6 +1,8 @@
 package controllers
 
 import (
+	"myPrj02Gin/models"
+	"myPrj02Gin/system"
 	"net/http"
 	"strconv"
 
@@ -9,9 +11,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
-	"github.com/wangsongyan/wblog/models"
-	"github.com/wangsongyan/wblog/system"
+
 )
+
+
 
 func IndexGet(c *gin.Context) {
 	var (
