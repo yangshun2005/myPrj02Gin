@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"myPrj02Gin/models"
-	"myPrj02Gin/system"
+	"github.com/yangshun2005/myPrj02Gin/models"
+	"github.com/yangshun2005/myPrj02Gin/system"
 	"net/http"
 	"strconv"
 

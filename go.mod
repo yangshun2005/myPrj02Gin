@@ -1,4 +1,4 @@
-module myPrj02Gin
+module github.com/yangshun2005/myPrj02Gin
 
 go 1.13
 

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"myPrj02Gin/models"
+	"github.com/yangshun2005/myPrj02Gin/models"
 )
 
 // 格式化时间
