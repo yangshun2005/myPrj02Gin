@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff4dcdd-7fa2-4e97-a9c5-051ef762f878" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reviewCodeDemo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/template.go" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/template.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_exercise.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_exercise.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,33 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/yangshun2005/myPrj02Gin">
+    <configuration name="go build github.com/yangshun2005/myPrj02Gin (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myPrj02Gin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/yangshun2005/myPrj02Gin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/yangshun2005/myPrj02Gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myPrj02Gin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main_exercise.go" />
+      <package value="github.com/yangshun2005/myPrj02Gin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin" />
+        <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -45,13 +73,41 @@
     <proxy>https://goproxy.cn,direct</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="89" key="SettingsEditor" timestamp="1581277906680">
+    <state x="410" y="77" key="#go_build_github.com/yangshun2005/myPrj02Gin" timestamp="1581281584343">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581277906680" />
-    <state x="439" y="314" width="858" height="582" key="find.popup" timestamp="1581280930633">
+    <state x="410" y="77" key="#go_build_github.com/yangshun2005/myPrj02Gin/0.0.1440.900@0.0.1440.900" timestamp="1581281584343" />
+    <state x="410" y="77" key="#go_build_github.com/yangshun2005/myPrj02Gin_(1)" timestamp="1581283505414">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="439" y="314" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1581280930633" />
+    <state x="410" y="77" key="#go_build_github.com/yangshun2005/myPrj02Gin_(1)/0.0.1440.900@0.0.1440.900" timestamp="1581283505414" />
+    <state width="1398" height="155" key="GridCell.Tab.0.bottom" timestamp="1581343794078">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="155" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581343794078" />
+    <state width="1398" height="155" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581289789180" />
+    <state width="1398" height="155" key="GridCell.Tab.0.center" timestamp="1581343794077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="155" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581343794077" />
+    <state width="1398" height="155" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581289789179" />
+    <state width="1398" height="155" key="GridCell.Tab.0.left" timestamp="1581343794076">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="155" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581343794076" />
+    <state width="1398" height="155" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581289789177" />
+    <state width="1398" height="155" key="GridCell.Tab.0.right" timestamp="1581343794078">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="155" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581343794078" />
+    <state width="1398" height="155" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581289789179" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1581345212599">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581345212599" />
+    <state x="439" y="314" width="858" height="582" key="find.popup" timestamp="1581285001486">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="439" y="314" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1581285001486" />
   </component>
 </project>
