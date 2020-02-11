@@ -10,6 +10,7 @@ import (
 	"github.com/jinzhu/gorm"
 	//_ "github.com/mattn/go-sqlite3"
 	_ "github.com/go-sql-driver/mysql"
+	//_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
 )
@@ -132,6 +133,8 @@ var DB *gorm.DB
 func InitDB() (*gorm.DB, error) {
 
 	//db, err := gorm.Open("sqlite3", system.GetConfiguration().DSN)
+	//db, err := gorm.Open("postgres", "host=localhost port=5432 user=postgres dbname=postgres sslmode=disable password=123456")
+
 	db, err := gorm.Open("mysql", "root:123456@tcp(localhost:3306)/wblog?charset=utf8&parseTime=True&loc=Local")
 	if err == nil {
 		DB = db

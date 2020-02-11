@@ -1,1 +1,8 @@
 2020-02-09 07:01:00 [ERR] [main.go:37] [main.main] default addr for network 'localhost:3306' unknown
+2020-02-12 00:40:01 [ERR] [main.go:60] [main.main] sql: unknown driver "postgres" (forgotten import?)
+2020-02-12 00:40:39 [ERR] [main.go:60] [main.main] sql: unknown driver "postgres" (forgotten import?)
+2020-02-12 00:59:28 [ERR] [main.go:60] [main.main] pq: SSL is not enabled on the server
+2020-02-12 01:00:16 [ERR] [main.go:60] [main.main] pq: SSL is not enabled on the server
+2020-02-12 01:01:29 [ERR] [main.go:60] [main.main] pq: SSL is not enabled on the server
+2020-02-12 01:17:13 [ERR] [main.go:60] [main.main] pq: SSL is not enabled on the server
+2020-02-12 01:19:34 [ERR] [main.go:60] [main.main] pq: SSL is not enabled on the server
