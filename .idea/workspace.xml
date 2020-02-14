@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8ff4dcdd-7fa2-4e97-a9c5-051ef762f878" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_exercise.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_exercise.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/conf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/rss.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/rss.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/fragment/meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/fragment/meta.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +21,11 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
-    <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="ProjectId" id="1XaIes4uezZrSuodvmJT9IuLKbl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,13 +35,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangshun2005/myPrj02Gin">
+  <component name="RunManager" selected="Go Build.go build github.com/yangshun2005/myPrj02Gin (1)">
     <configuration name="go build github.com/yangshun2005/myPrj02Gin (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myPrj02Gin" />
       <working_directory value="$PROJECT_DIR$" />
@@ -66,11 +71,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin" />
         <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin (1)" />
+        <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin" />
         <item itemvalue="Go Build.go build models.go" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ff4dcdd-7fa2-4e97-a9c5-051ef762f878" name="Default Changelist" comment="" />
+      <created>1581693339214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581693339214</updated>
+    </task>
+    <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -96,33 +111,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="229" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1581447150993" />
-    <state width="1398" height="313" key="GridCell.Tab.0.bottom" timestamp="1581653028518">
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1581724135416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="313" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581653028518" />
-    <state width="1398" height="155" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581289789180" />
-    <state width="1398" height="313" key="GridCell.Tab.0.center" timestamp="1581653028516">
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581724135416" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581722185923" />
+    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1581724135415">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="313" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581653028516" />
-    <state width="1398" height="155" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581289789179" />
-    <state width="1398" height="313" key="GridCell.Tab.0.left" timestamp="1581653028515">
+    <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581724135415" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581722185922" />
+    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1581724135414">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="313" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581653028515" />
-    <state width="1398" height="155" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581289789177" />
-    <state width="1398" height="313" key="GridCell.Tab.0.right" timestamp="1581653028517">
+    <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581724135414" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581722185921" />
+    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1581724135416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="313" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581653028517" />
-    <state width="1398" height="155" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581289789179" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1581447153063">
+    <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581724135416" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581722185922" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1581710832657">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581447153063" />
-    <state x="439" y="314" width="858" height="582" key="find.popup" timestamp="1581285001486">
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581710832657" />
+    <state x="439" y="314" width="858" height="582" key="find.popup" timestamp="1581724078037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="439" y="314" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1581285001486" />
+    <state x="439" y="314" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1581724078037" />
   </component>
 </project>

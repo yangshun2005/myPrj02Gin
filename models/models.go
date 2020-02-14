@@ -146,7 +146,7 @@ func InitDB() (*gorm.DB, error) {
 	if err == nil {
 		DB = db
 		db.LogMode(true)
-		db.AutoMigrate(&Page{}, &Post{}, &Tag{}, &PostTag{}, &User{}, &Comment{}, &Subscriber{}, &Link{}, &SmmsFile{}, &UserStatusMonitor{})
+		db.AutoMigrate(&Page{}, &Post{}, &Tag{}, &PostTag{}, &User{}, &Comment{}, &Subscriber{}, &Link{}, &SmmsFile{})
 		db.Model(&PostTag{}).AddUniqueIndex("uk_post_tag", "post_id", "tag_id")
 		return db, err
 	}

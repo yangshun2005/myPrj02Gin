@@ -18,7 +18,7 @@ func RssGet(c *gin.Context) {
 		Title:       "Wblog",
 		Link:        &feeds.Link{Href: domain},
 		Description: "Wblog,talk about golang,java and so on.",
-		Author:      &feeds.Author{Name: "Wangsongyan", Email: "wangsongyanlove@163.com"},
+		Author:      &feeds.Author{Name: "william", Email: "2095686947@qq.com"},
 		Created:     now,
 	}
 
