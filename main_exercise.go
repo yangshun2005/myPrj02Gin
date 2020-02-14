@@ -3,20 +3,18 @@ package main
 import (
 	"flag"
 	"fmt"
+	"net/http"
+	"os"
+
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-contrib/sessions/redis"
 	"github.com/gin-gonic/gin"
-	"net/http"
 )
 
 /*
 验证使用程序文件，项目提交完成即删除
- */
-
-import (
-	"os"
-)
+*/
 
 func main01() {
 	var cliName = flag.String("name", "nick", "Input Your Name")
@@ -35,14 +33,13 @@ func main01() {
 	flag.Parse()
 	fmt.Println("输出：", arg)
 
-
 }
 
 //获取uri
 func main02() {
 	engine := gin.Default()
 	engine.GET("/william/", func(c *gin.Context) {
-		c.JSON(http.StatusOK,gin.H{"path":c.Request.URL.Path})
+		c.JSON(http.StatusOK, gin.H{"path": c.Request.URL.Path})
 	})
 	engine.Run(":9091")
 }
@@ -64,10 +61,8 @@ func main03() {
 		fmt.Printf("Cookie value: %s \n", cookie)
 	})
 
-
 	router.Run(":9091")
 }
-
 
 //session使用
 func main04() {
@@ -95,15 +90,13 @@ func main04() {
 			session.Clear()
 		}
 
-
 		c.JSON(200, gin.H{"hello": session.Get("hello")})
 	})
 	r.Run(":9091")
 }
 
-
 //使用redis存储session
-func main() {
+func main05() {
 	r := gin.Default()
 	// 初始化基于redis的存储引擎
 	// 参数说明：

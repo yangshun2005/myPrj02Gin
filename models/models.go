@@ -60,11 +60,11 @@ type PostTag struct {
 // table users
 type User struct {
 	gorm.Model
-	Email         string    `gorm:"unique_index;default:null"` //邮箱
-	Telephone     string    `gorm:"unique_index;default:null"` //手机号码
-	Password      string    `gorm:"default:null"`              //密码
-	VerifyState   string    `gorm:"default:'0'"`               //邮箱验证状态
-	SecretKey     string    `gorm:"default:null"`              //密钥
+	Email         string    `gorm:"unique_index;default:null;comment:'用户邮箱'"`   //邮箱
+	Telephone     string    `gorm:"unique_index;default:null;comment:'用户手机号码'"` //手机号码
+	Password      string    `gorm:"default:null"`                               //密码
+	VerifyState   string    `gorm:"default:'0'"`                                //邮箱验证状态
+	SecretKey     string    `gorm:"default:null"`                               //密钥
 	OutTime       time.Time //过期时间
 	GithubLoginId string    `gorm:"unique_index;default:null"` // github唯一标识
 	GithubUrl     string    //github地址
@@ -128,6 +128,13 @@ type SmmsFile struct {
 	Path      string `json:"path"`
 }
 
+type UserStatusMonitor struct {
+	BaseModel
+	ChangeInfo     string    `gorm:"default:null;comment:'用户信息变化监控'"`
+	LastLoginTimes time.Time `gorm:"unique_index;comment:'用户最后一次登陆时间'"`
+	BitBlogNum     int       `gorm:"unique_index;comment:'用户点击观看blog总次数'"`
+}
+
 var DB *gorm.DB
 
 func InitDB() (*gorm.DB, error) {
@@ -139,7 +146,7 @@ func InitDB() (*gorm.DB, error) {
 	if err == nil {
 		DB = db
 		db.LogMode(true)
-		db.AutoMigrate(&Page{}, &Post{}, &Tag{}, &PostTag{}, &User{}, &Comment{}, &Subscriber{}, &Link{}, &SmmsFile{})
+		db.AutoMigrate(&Page{}, &Post{}, &Tag{}, &PostTag{}, &User{}, &Comment{}, &Subscriber{}, &Link{}, &SmmsFile{}, &UserStatusMonitor{})
 		db.Model(&PostTag{}).AddUniqueIndex("uk_post_tag", "post_id", "tag_id")
 		return db, err
 	}

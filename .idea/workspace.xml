@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ff4dcdd-7fa2-4e97-a9c5-051ef762f878" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_exercise.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_exercise.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
-  <component name="RunManager" selected="Go Build.go build models.go">
+  <component name="RunManager" selected="Go Build.go build github.com/yangshun2005/myPrj02Gin">
     <configuration name="go build github.com/yangshun2005/myPrj02Gin (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myPrj02Gin" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,9 +66,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin" />
         <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin (1)" />
         <item itemvalue="Go Build.go build models.go" />
-        <item itemvalue="Go Build.go build github.com/yangshun2005/myPrj02Gin" />
       </list>
     </recent_temporary>
   </component>
@@ -98,25 +96,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="229" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1581447150993" />
-    <state width="1398" height="155" key="GridCell.Tab.0.bottom" timestamp="1581443365013">
+    <state width="1398" height="313" key="GridCell.Tab.0.bottom" timestamp="1581653028518">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581443365013" />
+    <state width="1398" height="313" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581653028518" />
     <state width="1398" height="155" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581289789180" />
-    <state width="1398" height="155" key="GridCell.Tab.0.center" timestamp="1581443365012">
+    <state width="1398" height="313" key="GridCell.Tab.0.center" timestamp="1581653028516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581443365012" />
+    <state width="1398" height="313" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581653028516" />
     <state width="1398" height="155" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581289789179" />
-    <state width="1398" height="155" key="GridCell.Tab.0.left" timestamp="1581443365011">
+    <state width="1398" height="313" key="GridCell.Tab.0.left" timestamp="1581653028515">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581443365011" />
+    <state width="1398" height="313" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581653028515" />
     <state width="1398" height="155" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581289789177" />
-    <state width="1398" height="155" key="GridCell.Tab.0.right" timestamp="1581443365012">
+    <state width="1398" height="313" key="GridCell.Tab.0.right" timestamp="1581653028517">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="155" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581443365012" />
+    <state width="1398" height="313" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581653028517" />
     <state width="1398" height="155" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581289789179" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1581447153063">
       <screen x="0" y="0" width="1440" height="900" />
