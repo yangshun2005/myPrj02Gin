@@ -19,9 +19,8 @@
 #### 安装方式：
 1. 配置两个文件，在conf中 【想简单实用，直接修改mysql的uri就行，本处放弃了sqlite3的方式，原因很简单】
 2. 安装golang 1.12+以上语言版本 
-```text `注意墙的事情,修改go代理如下：`
-GOPROXY="https://goproxy.cn,direct"
-```
+ `注意墙的事情,修改go代理如下：GOPROXY="https://goproxy.cn,direct"`
+ 
 3. 在根目录直接使用`go mod tidy`,然后直接 `go run main.go` 就可以开启站点了
 
 > 有兴趣的可以直接编译后使用，更方便。
