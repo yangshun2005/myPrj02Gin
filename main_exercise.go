@@ -44,7 +44,7 @@ func main02() {
 	engine.Run(":9091")
 }
 
-//设置cokkie
+//设置cookie
 func main03() {
 
 	router := gin.Default()

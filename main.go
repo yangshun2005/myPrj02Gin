@@ -219,7 +219,7 @@ func setSessions(router *gin.Engine) {
 	//https://github.com/gin-gonic/contrib/tree/master/sessions
 	store := cookie.NewStore([]byte(config.SessionSecret))
 	store.Options(sessions.Options{HttpOnly: true, MaxAge: 7 * 86400, Path: "/"}) //Also set Secure: true if using SSL, you should though
-	router.Use(sessions.Sessions("gin-session", store))
+	router.Use(sessions.Sessions("william-session", store))
 	//https://github.com/utrack/gin-csrf
 	/*router.Use(csrf.Middleware(csrf.Options{
 		Secret: config.SessionSecret,
